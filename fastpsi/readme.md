@@ -1,4 +1,4 @@
-The source code of "Efficient Private Set Intersection by Utilizing Oblivious Transfer Extension" from AsiaCCS'25.
+# The source code of "Efficient Private Set Intersection by Utilizing Oblivious Transfer Extension" from AsiaCCS'25.
 
 ## 1 The dependency: https://github.com/Visa-Research/volepsi
 
@@ -9,6 +9,7 @@ The source code of "Efficient Private Set Intersection by Utilizing Oblivious Tr
 ### 4). Running examples
 
 for PSI
+
 ./fastpsi -role 0 -nnx 16 -nny 16 -v & ./fastpsi -role 1 -nnx 16 -nny 16 -v
 
 ./fastpsi -role 0 -nnx 20 -nny 20 -v & ./fastpsi -role 1 -nnx 20 -nny 20 -v
@@ -16,6 +17,7 @@ for PSI
 ./fastpsi -role 0 -nnx 24 -nny 24 -v & ./fastpsi -role 1 -nnx 24 -nny 24 -v
 
 for OPPRF
+
 ./fastpsi -role 0 -nnx 16 -nny 16 -v -theta 1 & ./fastpsi -role 1 -nnx 16 -nny 16 -v -theta 1
 
 ./fastpsi -role 0 -nnx 16 -nny 16 -v -theta 2 & ./fastpsi -role 1 -nnx 16 -nny 16 -v -theta 2
