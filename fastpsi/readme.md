@@ -10,11 +10,16 @@ The source code of "Efficient Private Set Intersection by Utilizing Oblivious Tr
 
 for PSI
 ./fastpsi -role 0 -nnx 16 -nny 16 -v & ./fastpsi -role 1 -nnx 16 -nny 16 -v
+
 ./fastpsi -role 0 -nnx 20 -nny 20 -v & ./fastpsi -role 1 -nnx 20 -nny 20 -v
+
 ./fastpsi -role 0 -nnx 24 -nny 24 -v & ./fastpsi -role 1 -nnx 24 -nny 24 -v
 
 for OPPRF
 ./fastpsi -role 0 -nnx 16 -nny 16 -v -theta 1 & ./fastpsi -role 1 -nnx 16 -nny 16 -v -theta 1
+
 ./fastpsi -role 0 -nnx 16 -nny 16 -v -theta 2 & ./fastpsi -role 1 -nnx 16 -nny 16 -v -theta 2
+
 ./fastpsi -role 0 -nnx 16 -nny 16 -v -theta 4 & ./fastpsi -role 1 -nnx 16 -nny 16 -v -theta 4
+
 ./fastpsi -role 0 -nnx 16 -nny 16 -v -theta 8 & ./fastpsi -role 1 -nnx 16 -nny 16 -v -theta 8
