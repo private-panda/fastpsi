@@ -1,4 +1,4 @@
-# The source code of "Efficient Private Set Intersection by Utilizing Oblivious Transfer Extension" from AsiaCCS'25.
+## The source code of "Efficient Private Set Intersection by Utilizing Oblivious Transfer Extension" from AsiaCCS'25.
 
 ## 1 The dependency: https://github.com/Visa-Research/volepsi
 
