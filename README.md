@@ -1,11 +1,11 @@
-## The source code of "Efficient Private Set Intersection by Utilizing Oblivious Transfer Extension" from AsiaCCS'25.
+### The source codes of "Efficient Private Set Intersection by Utilizing Oblivious Transfer Extension" in AsiaCCS'25.
 
 ## 1 The dependency: https://github.com/Visa-Research/volepsi
 
 ## 2 How to run this code?
 ### 1). Put the source code in volepsi and add 'add_subdirectory(fastpsi)' in CMakeLists.txt of volePSI
 ### 2). Compile volepsi as the 'README.md' of volePSI
-### 3). `cd out/build/linux/fastpsi'
+### 3). `cd out/build/linux/fastpsi`
 ### 4). Running examples
 
 for PSI
